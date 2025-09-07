@@ -71,3 +71,27 @@ Se você usar a função perceptron_output, o resultado será:
 
 O Perceptron é importante historicamente por ser a base das redes neurais modernas.
 Apesar de simples (apenas classifica de forma linear), ele abriu caminho para arquiteturas mais complexas, como redes multicamadas (MLP) e deep learning.
+
+
+CONCEITO
+
+Um perceptron é definido como um modelo computacional composto por um único neurônio com duas entradas, capaz de executar tarefas simples, como classificação binária
+
+FUNCIONAMENTO
+
+Quando dizemos que o Perceptron é um classificador linear, significa que ele só consegue separar os dados em duas classes usando uma reta (em 2D), um plano (em 3D) ou, de forma geral, um hiperplano.
+
+Exemplo: em um gráfico 2D, ele consegue separar pontos vermelhos de azuis se uma única linha conseguir dividir os dois grupos.
+
+Limitação: não consegue resolver problemas linearmente não separáveis, como o clássico problema do XOR, onde os pontos não podem ser separados apenas com uma linha reta.
+
+CODIGO
+
+Definer pesos iniciais, calcular saida,ajustar pesos.
+
+APLICAÇÃO PRATICA
+
+Um exemplo prático seria o filtro de spam em e-mails simples.
+O Perceptron poderia aprender a classificar mensagens como spam ou não spam com base em palavras-chave (entradas).
+
+
